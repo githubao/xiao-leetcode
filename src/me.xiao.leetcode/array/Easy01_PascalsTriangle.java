@@ -1,7 +1,5 @@
 package me.xiao.leetcode.array;
 
-import com.sun.org.apache.bcel.internal.generic.ARRAYLENGTH;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -15,10 +13,10 @@ import java.util.List;
  * date: 2018/3/15 19:00
  */
 
-public class PascalsTriangle {
+public class Easy01_PascalsTriangle {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            List<Integer> results = new PascalsTriangle().getRow2(i);
+            List<Integer> results = new Easy01_PascalsTriangle().getRow2(i);
             System.out.println(results);
         }
     }
