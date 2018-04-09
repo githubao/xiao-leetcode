@@ -23,7 +23,7 @@ public class Easy11_LongestIncreasingSubsequence {
         if (nums.length == 0) {
             return 0;
         }
-        for (int i = 0, j = i + 1; i < nums.length; ) {
+        for (int i = 0, j = i + 1; j < nums.length; ) {
             if (nums[j] > nums[i]) {
                 count++;
                 i++;
