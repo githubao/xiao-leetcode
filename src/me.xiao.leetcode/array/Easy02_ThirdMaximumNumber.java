@@ -13,9 +13,9 @@ import java.util.List;
 
 public class Easy02_ThirdMaximumNumber {
     public static void main(String[] args) {
-        int[] a = {1, 2, 2, 3, 3, 4};
+        int[] nums = {1, 2, 2, 3, 3, 4};
 //        System.out.println(new Easy02_ThirdMaximumNumber().max(a));
-        System.out.println(new Easy02_ThirdMaximumNumber().max(a, null));
+        System.out.println(new Easy02_ThirdMaximumNumber().max(nums, null));
     }
 
     private int thirdMax(int[] nums) {

@@ -17,7 +17,7 @@ public class Easy08_MergeSortedArray {
 
         int[] results = new Easy08_MergeSortedArray().merge(num1, 3, num2, 2);
 
-        Arrays.stream(results).forEach(System.out::println);
+        System.out.println(Arrays.toString(results));
     }
 
     private int[] merge(int[] num1, int m, int[] num2, int n) {
