@@ -20,10 +20,10 @@ leet code src code, from easy to medium to hard, hahaha
 1. tree
 1. two_pointers(二级指针？)
 
-248个 算法题
-64
-141
-43
+248个算法题
+简单：64
+中等：141
+难：43
 
 查看已经完成了多少题目
 - find . -name "*.java" | wc -l

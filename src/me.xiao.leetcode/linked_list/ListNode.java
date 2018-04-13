@@ -1,0 +1,27 @@
+package me.xiao.leetcode.linked_list;
+
+/**
+ * 链表
+ *
+ * @author pacman
+ * @version 1.0
+ * date: 2018/4/13 20:46
+ */
+
+public class ListNode {
+    int val;
+    ListNode next;
+
+    public ListNode(int val) {
+        this.val = val;
+        next = null;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
+    }
+}
