@@ -21,7 +21,8 @@ leet code src code, from easy to medium to hard, hahaha
 1. two_pointers(二级指针？)
 
 248个 算法题
-64(16+)
+64
 141
 43
 
+find . -name "*.java" | wc -l 
