@@ -25,4 +25,12 @@ leet code src code, from easy to medium to hard, hahaha
 141
 43
 
-find . -name "*.java" | wc -l 
+查看已经完成了多少题目
+- find . -name "*.java" | wc -l
+
+五大算法：
+1. 分治算法
+2. 动态规划
+3. 贪心算法
+4. 回溯法
+5. 分支界限法
