@@ -30,17 +30,17 @@ public class BinaryTree {
         int[] arr = {0, 13, 65, 5, 97, 25, 0, 37, 22, 0, 4, 28, 0, 0, 32, 0};
         BinaryTree tree = new BinaryTree(arr);
 
-        tree.bsf();
-        tree.dsf();
+//        tree.bsf();
+//        tree.dsf();
 
         tree.pre(tree.root);
         System.out.println("\n");
 
-        tree.in(tree.root);
-        System.out.println("\n");
-
-        tree.post(tree.root);
-        System.out.println("\n");
+//        tree.in(tree.root);
+//        System.out.println("\n");
+//
+//        tree.post(tree.root);
+//        System.out.println("\n");
 
     }
 
