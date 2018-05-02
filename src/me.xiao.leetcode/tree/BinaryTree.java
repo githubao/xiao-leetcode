@@ -20,6 +20,12 @@ public class BinaryTree {
         root = build(arr, 1);
     }
 
+    public static TreeNode defaultBuild() {
+        int[] arr = {0, 13, 65, 5, 97, 25, 0, 37, 22, 0, 4, 28, 0, 0, 32, 0};
+        BinaryTree tree = new BinaryTree(arr);
+        return tree.root;
+    }
+
     public static void main(String[] args) {
         int[] arr = {0, 13, 65, 5, 97, 25, 0, 37, 22, 0, 4, 28, 0, 0, 32, 0};
         BinaryTree tree = new BinaryTree(arr);
