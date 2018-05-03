@@ -11,6 +11,7 @@ import java.util.Arrays;
  */
 
 public class Medium08_SparseMatrixMultiplication {
+
     public static void main(String[] args) {
         int[][] A = {{1, 0, 0, 1}, {2, 0, 0, 2}};
         int[][] B = {{7, 0, 0}, {0, 0, 0}, {0, 0, 1}, {0, 0, 1}};

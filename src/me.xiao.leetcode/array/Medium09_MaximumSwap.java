@@ -10,6 +10,7 @@ package me.xiao.leetcode.array;
  */
 
 public class Medium09_MaximumSwap {
+
     public static void main(String[] args) {
         System.out.println(new Medium09_MaximumSwap().maximumSwap(234379656));
     }
