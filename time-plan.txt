@@ -1,9 +1,9 @@
 easy: 64（已完成）
-medium: 141(14+11)
+medium: 141(14+12+6)
 hard: 43
 later: 16（2）
 
-7
+
 3
 4
 8(deep first search)
