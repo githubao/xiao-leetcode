@@ -22,6 +22,8 @@ public class Easy12_BstToDoubleLinkedList {
 
         head.print();
 
+//        System.out.println(head);
+
     }
 
     private DoubleList treeToDoubleList(TreeNode root) {
