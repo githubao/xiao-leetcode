@@ -29,8 +29,8 @@ leet code src code, from easy to medium to hard, hahaha
 - find . -name "*.java" | wc -l
 
 五大算法：
-1. 分治算法
-2. 动态规划
-3. 贪心算法
-4. 回溯法
-5. 分支界限法
+1. backtracking-回溯法
+1. greedy-贪心算法
+1. dynamic_programming-动态规划算法
+1. divide_and_conquer-分治法
+1. 分支界限法
