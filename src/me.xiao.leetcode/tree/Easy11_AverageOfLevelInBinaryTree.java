@@ -51,13 +51,4 @@ public class Easy11_AverageOfLevelInBinaryTree {
         return result;
     }
 
-    class LevelNode {
-        int level;
-        TreeNode node;
-
-        public LevelNode(int level, TreeNode node) {
-            this.level = level;
-            this.node = node;
-        }
-    }
 }
