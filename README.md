@@ -26,7 +26,7 @@ leet code src code, from easy to medium to hard, hahaha
 难：43
 
 查看已经完成了多少题目
-- find . -name "*.java" | wc -l
+- find . -name "*.java" | grep Medium | wc -l
 
 五大算法：
 1. backtracking-回溯法
