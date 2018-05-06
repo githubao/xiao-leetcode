@@ -1,29 +1,19 @@
 easy: 64（已完成）
-medium: 141(41)
+medium: 141(52)
 hard: 43
 later: 16（2+3个hard）
 
 
-
-#39#
 8(deep first search)
-9(design)
 22(dynamic programming)
 
-#22#
+9(design)
 7(greedy)
 6(hashing)
-1
-6(math)
-1
-1
-
-#37#
 9(string)
 21(tree)
-7
+7(two-pointers)
 
 
-medium：100个
-
+medium：89个
 later：11个
