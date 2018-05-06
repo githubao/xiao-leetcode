@@ -6,14 +6,14 @@ later: 16（2+3个hard）
 
 8(deep first search)
 22(dynamic programming)
+6(greedy)
 
 9(design)
-7(greedy)
 6(hashing)
 9(string)
 21(tree)
 7(two-pointers)
 
 
-medium：89个
+medium：88个
 later：11个
