@@ -4,12 +4,13 @@ hard: 43
 later: 16（2+3个hard）
 
 
+9(string)
+
 14(dynamic programming)
 6(greedy)
 
 9(design)
 6(hashing)
-9(string)
 21(tree)
 7(two-pointers)
 
