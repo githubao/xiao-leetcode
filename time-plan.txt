@@ -1,10 +1,7 @@
 easy: 64（已完成）
-medium: 141(69)
+medium: 141(已完成78)
 hard: 43
 later: 16（2+3个hard）
-
-
-9(string)
 
 14(dynamic programming)
 6(greedy)
