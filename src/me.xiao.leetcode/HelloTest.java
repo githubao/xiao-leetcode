@@ -1,9 +1,6 @@
 package me.xiao.leetcode;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * java 语言测试
@@ -16,6 +13,15 @@ import java.util.Queue;
 public class HelloTest {
 
     public static void main(String[] args) {
+        HashMap<Integer, String> map = new HashMap<>(4);
+        map.put(1, "1");
+        map.put(2, "2");
+        map.put(3, "3");
+        map.put(4, "4");
+        System.out.println(map);
+    }
+
+    public static void main2(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3);
         System.out.println(list.stream().limit(2).count());
     }

@@ -81,8 +81,8 @@ public class Medium01_CopyListOfRandomPointer {
         public String toString() {
             return "RandomListNode{" +
                     "value=" + value +
-                    ", next=" + next +
-                    ", random=" + random +
+                    ", next=" + next.value +
+                    ", random=" + random.value +
                     '}';
         }
 

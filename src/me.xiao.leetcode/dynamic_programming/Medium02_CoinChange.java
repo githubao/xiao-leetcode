@@ -12,8 +12,9 @@ public class Medium02_CoinChange {
     private int[][] DP;
 
     public static void main(String[] args) {
-        int[] coins = {1, 2, 5};
-        System.out.println(new Medium02_CoinChange().coinChange(coins, 11));
+//        int[] coins = {1, 2, 5};
+        int[] coins = {4, 5, 10};
+        System.out.println(new Medium02_CoinChange().coinChange2(coins, 11));
     }
 
     private int coinChange(int[] coins, int amount) {
@@ -34,4 +35,25 @@ public class Medium02_CoinChange {
 
         return DP[i][amount];
     }
+
+    /**
+     * dp的含义： 和为i的硬币，需要的最小硬币数
+     * <p>
+     * 不把硬币放进去 和 把硬币放进去 的最小值
+     *
+     * @param coins
+     * @param amount
+     * @return
+     */
+    private int coinChange2(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        for (int i = 1; i <= amount; i++) dp[i] = 0x7fff_fffe;
+        for (int coin : coins)
+            for (int i = coin; i <= amount; i++)
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+
+        return dp[amount] == 0x7fff_fffe ? -1 : dp[amount];
+    }
+
+
 }
